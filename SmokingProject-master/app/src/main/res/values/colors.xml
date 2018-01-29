@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fcb06b</color>
+    <color name="lightAccent">#f484aa</color>
+    <color name="darkAccent">#e1893c</color>
+    <color name="mainColor">#a7e6e6</color>
+    <color name="lightMain">#c1f3ff</color>
+    <color name="darkMain">#81acb7</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="app_title">#333333</color>
+    <color name="textColor">#2e75b6</color>
+    <color name="tempImage">#b3b3b3</color>
+    <color name="situationBar">#282c36</color>
+
+
+    <color name="temp1">#22272b</color>
+    <color name="temp2">#00b8d4</color>
+    <color name="temp3">#282c36</color>
+    <color name="temp4">#a7e6e6</color>
+    <color name="temp5">#8affffff</color>
+    <color name="temp6">#5e5e5e</color>
+
+
+
+</resources>

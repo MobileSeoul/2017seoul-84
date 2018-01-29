@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_weight="1"
+        android:id="@+id/question_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/mainColor"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:textColor="@color/mainColor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/question_title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/question_title"
+        android:hint="제목을 입력하세요"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5dp"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/question_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:textColor="@color/mainColor"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"/>
+
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/question_content_edit"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/question_content"
+            android:gravity="left"
+            android:hint="내용을 입력하세요"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="5dp"
+            android:maxLines="8"
+            android:inputType="textMultiLine"
+            android:padding="5dp"/>
+
+    <ImageView
+        android:layout_weight="2"
+        android:id="@+id/load_image_question"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_menu_gallery"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/question_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textColor="@color/mainColor"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"/>
+
+
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/question_email_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/question_email"
+        android:hint="답변 받을 이메일 주소를 입력하세요"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:id="@+id/open_gallery_question"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_menu_gallery"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:tint="@color/temp4"
+            android:layout_marginTop="5dp"/>
+
+        <ImageButton
+            android:id="@+id/open_camera_question"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_toRightOf="@+id/open_gallery_question"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:tint="@color/temp4"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/postquest_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:text="제출"
+            android:textColor="@color/temp2"
+            android:background="@color/white"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

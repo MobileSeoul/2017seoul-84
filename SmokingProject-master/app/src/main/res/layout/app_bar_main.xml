@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kakyunglee.smokingproject.activity.activity.MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/temp3"
+            android:foregroundTint="@color/mainColor"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+                <EditText
+                    android:layout_weight="3"
+                    android:id="@+id/et_search_Loc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:hint="@string/mainactivity_et_search_loc"
+                    android:textColor="@color/temp4"
+                    android:background="@color/temp5"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"/>
+
+
+                <ImageView
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:id="@+id/search_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/search_button"
+                    android:tint="@color/temp2"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <ImageButton
+        android:id="@+id/none_smoking_area"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/smoking_area"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:src="@drawable/no_smoking_white128"
+        android:background="@drawable/filter_pressed_button"/>
+
+    <ImageButton
+        android:id="@+id/smoking_area"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/address"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:src="@drawable/smoking_white128"
+        android:background="@drawable/filter_pressed_button_red"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="서울특별시 광진구 군자동 209"
+        android:textColor="@color/temp2"
+        android:textSize="15dp"
+        android:background="@color/temp3"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:layout_above="@+id/report"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="신고하기"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="-200dp"
+        android:background="@color/temp4"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

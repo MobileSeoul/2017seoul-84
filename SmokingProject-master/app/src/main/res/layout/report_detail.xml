@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/report_spinner"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/lightMain"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="서울특별시 광진구 군자동 209"
+        android:layout_above="@+id/report"
+        android:layout_margin="-10dp"
+        android:textColor="@color/temp6"
+        android:gravity="center"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:background="@color/tempImage"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:textColor="@color/mainColor"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" />
+
+
+
+    <EditText
+        android:id="@+id/report_detail_content"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:hint="이곳에 내용을 입력하세요."
+        android:gravity="left"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/load_image"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_menu_gallery"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/mainColor"/>
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/report_email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:hint="이메일을 입력하세요"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:id="@+id/open_gallery"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_menu_gallery"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:tint="@color/temp4"
+            android:layout_marginTop="5dp"/>
+
+        <ImageButton
+            android:id="@+id/open_camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_toRightOf="@+id/open_gallery"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:tint="@color/temp4"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/submit_report"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="제출"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/temp2"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

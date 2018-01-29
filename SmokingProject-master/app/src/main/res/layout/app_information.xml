@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여기선 피지마"
+                    android:textColor="@color/temp2"
+                    android:textSize="22dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="version 1.0"
+                    android:textColor="@color/temp3"
+                    android:gravity="right"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="어플리케이션을 통하여 접수된  불편과 신고는  서울시 각 구 구청 온라인 민원신고로 보내집니다.\n등록된 민원에 대해서는 수정이 불가능하며 해당 신고 위치에 대한 책임은 신고자에게 있습니다.\n\n담배와 관련한 구체적인 법적  조치와 규정은 법률 정보 페이지를 통해 확인하실 수 있습니다."
+                android:textColor="@color/temp3"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사용 API"
+                android:textColor="@color/temp2"
+                android:textSize="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-서울시 금연장소 데이터\n-서울시 흡연장소 데이터\n-흡연관련 법률정보"
+                android:textColor="@color/temp3"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="앱 사용 방법"
+                android:textColor="@color/temp2"
+                android:textSize="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. 어플리케이션을 실행 후 지도를 움직이면 흡연구역과 금연구역 정보가 표시됩니다.\n
+2. 지정된 흡연 구역이 아님에도 담배냄새가 나거나 흡연자들이 많은 경우, 또는 흡연구역이지만 시설이 노후하여 개선이 필요할 경우엔 해당 위치를 2초이상 길게 태그하여 핀을 옮겨주세요.\n
+3. 하단의 간단신고 버튼을 누르면 나의 소중한 의견이 구청으로 전송되고, 해당 장소가 몇 번이나 신고되었는지도 알 수 있습니다.\n
+4. 상세신고를 통해 보다 구체적인 신고 작성또한 가능합니다.\n
+5. 기타 문의 및 법률정보는 좌측 네비게이션 바를 이용해주세요!\n\n"
+                android:textColor="@color/temp3"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

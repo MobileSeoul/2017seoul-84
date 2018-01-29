@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_notice"
+        android:icon="@drawable/notice"
+        android:title="공지사항" />
+
+    <item
+        android:id="@+id/nav_law"
+        android:icon="@drawable/law"
+        android:title="법률정보" />
+    <item
+        android:id="@+id/nav_question"
+        android:icon="@drawable/question"
+        android:title="정부문의" />
+
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/setting"
+        android:title="앱정보"/>
+
+</menu>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">여기선\n피지마</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="mainactivity_et_search_loc">장소를 입력하세요.</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="report_dialog_title">신고하시겠습니까?</string>
+    <string name="report_dialog_right_button">네</string>
+    <string name="report_dialog_left_button">아니오</string>
+    <string name="report_dialog_sub">담배로 인한 불편이 발생하셨나요?</string>
+
+    <string name="report_detail_dialog_title">신고완료!</string>
+    <string name="report_detail_dialog_content1">누적 신고 건수</string>
+    <string name="report_detail_dialog_content2">조금 더 자세히 작성하기</string>
+    <string name="report_detail_dialog_right_button">네, 작성합니다</string>
+    <string name="report_detail_dialog_left_button">아니오, 생략합니다.</string>
+
+
+    <string name="app_info_name">앱 이름:여기선피지마</string>
+    <string name="app_info_developer">개발:배고픈 오리</string>
+    <string name="app_info_use_API">서울시 제공 금연,흡연정보</string>
+    <string name="app_info_version">version 1.0</string>
+    <string name="app_info_button">앱 문의메일 보내기</string>
+
+    <string-array name="report_detail">
+        <item>상세 신고 구분</item>
+        <item>금연 거리 지정 요청</item>
+        <item>불법 흡연 목격 신고</item>
+        <item>흡연 시설 관리 요청</item>
+    </string-array>
+
+    <string-array name="question_detail">
+        <item>문의 종류</item>
+        <item>흡/금연 법률 질문</item>
+        <item>흡/금연 정책 제안</item>
+        <item>신고 관련 질문</item>
+        <item>흡연시설 문의</item>
+        <item>금연시설 문의</item>
+        <item>기타</item>
+    </string-array>
+
+</resources>
